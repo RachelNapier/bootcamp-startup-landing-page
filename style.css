@@ -13,3 +13,8 @@ html {
 p {
   font-size: 24px;
 }
+
+h1 {
+  font-size: 3rem; 
+  color: #212529;
+}
