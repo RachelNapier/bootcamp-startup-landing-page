@@ -15,9 +15,14 @@ p {
 }
 
 h1 {
-  font-size: 3rem; 
+  font-size: 3rem;
   color: #212529;
-  
+}
+
+hr {
+  border-color: #ffffff;
+  border-width: 3px;
+  max-width: 85px;
 }
 
 .btn {
@@ -36,7 +41,7 @@ h1 {
   color: #191b1d;
   background-color: #ffffff;
   border-color: #ffffff;
-  border-width: 4px;
+  border-width: 2px;
 }
 
 .btn-xl {
