@@ -17,6 +17,9 @@ p {
 h1 {
   font-size: 3rem;
   color: #191b1d9a;
+  display: flex;
+  position: relative;
+  bottom: 320px;
 }
 
 hr {
