@@ -10,16 +10,9 @@ html {
   background-size: cover;
 }
 
-p {
-  font-size: 24px;
-}
-
 h1 {
-  font-size: 3rem;
+  font-size: 3em;
   color: #191b1d9a;
-  display: flex;
-  position: relative;
-  bottom: 320px;
 }
 
 hr {
@@ -30,8 +23,10 @@ hr {
 
 .btn {
   font-weight: 700;
-  border-radius: 300px;
+  border-radius: 400px;
   text-transform: uppercase;
+  position: relative;
+  margin-top: 550px;
 }
 
 .btn-light {
