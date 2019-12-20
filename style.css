@@ -21,12 +21,14 @@ hr {
   max-width: 85px;
 }
 
+.buffer {
+  height: 600px;
+}
+
 .btn {
   font-weight: 700;
   border-radius: 400px;
   text-transform: uppercase;
-  position: relative;
-  margin-top: 550px;
 }
 
 .btn-light {
