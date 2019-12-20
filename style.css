@@ -12,11 +12,11 @@ html {
 
 h1 {
   font-size: 3em;
-  color: #191b1d9a;
+  color: #ffffffd8;
 }
 
 hr {
-  border-color: #ffffff;
+  border-color: #ffffffd8;
   border-width: 3px;
   max-width: 85px;
 }
@@ -30,15 +30,15 @@ hr {
 }
 
 .btn-light {
-  color: #ffffff;
+  color: #ffffffd8;
   background-color: #191b1d;
   border-color: #191b1d;
 }
 
 .btn-light:hover {
   color: #191b1d;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #ffffffd8;
+  border-color: #ffffffd8;
   border-width: 2px;
 }
 
