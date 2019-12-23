@@ -9,6 +9,10 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+.fadeInDown {
+  animation-duration: 3s;
+  animation-delay: .5s;
+}
 
 h1 {
   font-size: 3em;
