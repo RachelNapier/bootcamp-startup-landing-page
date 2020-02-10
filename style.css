@@ -1,53 +1,21 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  font-family: "Montserrat", sans-serif;
-  background: url(header.jpg) no-repeat center center fixed;
+body {
+  background: url(images/ff8-bg.jpg)
+  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.fadeInDown {
-  animation-duration: 3s;
-  animation-delay: .5s;
+  background-size: 100% 100%;
+  background-color: #7B7B7B;
 }
 
-h1 {
-  font-size: 3em;
-  color: #ffffffd8;
+@media (min-width: 481px) and (max-width: 767px) {
+body {
+  background: url(images/ff7-bg-sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%;
 }
-
-hr {
-  border-color: #ffffffd8;
-  border-width: 3px;
-  max-width: 85px;
-}
-
-.buffer {
-  height: 600px;
-}
-
-.btn {
-  font-weight: 700;
-  border-radius: 400px;
-  text-transform: uppercase;
-}
-
-.btn-light {
-  color: #ffffffd8;
-  background-color: #191b1d;
-  border-color: #191b1d;
-}
-
-.btn-light:hover {
-  color: #191b1d;
-  background-color: #ffffffd8;
-  border-color: #ffffffd8;
-  border-width: 2px;
-}
-
-.btn-xl {
-  padding: 1rem 2rem;
 }
