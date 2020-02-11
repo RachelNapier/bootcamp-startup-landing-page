@@ -1,21 +1,53 @@
+/* ===================================
+          GLOBAL STYLES
+   =================================== */
+
 body {
-  background: url(images/ff8-bg.jpg)
-  no-repeat center center fixed;
+  background: url(images/ff8-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-size: 100% 100%;
-  background-color: #7B7B7B;
+  background-color: rgba(204, 204, 204, 0.5);
+  background-blend-mode: lighten;
+  font-family: "Fira Sans", sans-serif;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-body {
-  background: url(images/ff7-bg-sm.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-size: 100% 100%;
+/* ===================================
+          CONTENT STYLES
+   =================================== */
+
+#content {
+  padding-top: 150px;
 }
+
+h1 {
+  font-size: 72px;
+}
+
+h1,
+hr {
+  font-weight: 700;
+}
+
+h1, 
+h2 {
+  text-shadow: 00px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
+/* ===================================
+          RESPONSIVE STYLES
+   =================================== */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    background: url(images/ff7-bg-sm.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+  }
 }
