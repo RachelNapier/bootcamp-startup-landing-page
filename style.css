@@ -1,6 +1,12 @@
 /* ===================================
           GLOBAL STYLES
    =================================== */
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+}
 
 body {
   background: url(images/ff8-bg.jpg) no-repeat center center fixed;
@@ -9,7 +15,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-size: 100% 100%;
-  background-color: rgba(204, 204, 204, 0.6);
+  background-color: rgba(204, 204, 204, 0.7);
   background-blend-mode: lighten;
   font-family: "Fira Sans", sans-serif;
 }
@@ -19,35 +25,42 @@ body {
    =================================== */
 
 main {
-  text-align: center;
-}
-
-#content {
-  padding-top: 150px;
+  padding: 0 100px;
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 64px;
+  padding-bottom: 10px;
 }
 
 h1,
+h2,
 hr {
   font-weight: 700;
 }
 
-h1,
-h2 {
+h1 {
   text-shadow: 00px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
 .buffer {
-  height: 200px;
+  height: 100px;
 }
 
 hr {
-  width: 700px;
+  max-width: 400px;
   border-top: 1px solid #111010;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000;
 }
 
 /* ===================================
@@ -62,5 +75,33 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     background-size: 100% 100%;
+    background-color: rgba(204, 204, 204, 0.7);
+    background-blend-mode: lighten;
+  }
+
+  main,
+  footer {
+    padding: 0 20px;
+  }
+
+  .buffer {
+    height: 50px;
+  }
+
+  hr {
+    max-width: 200px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 12px;
   }
 }
