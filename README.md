@@ -8,7 +8,7 @@ Including a brief summary about the main focus of the site, which is
 to connect with people who all share a common interest of loving Final Fantasy.
 
 
-Clicking on the Register button will take you to seperate sigh-up Form.
+Clicking on the Register button will take you to seperate sign-up Form.
 
 Different background image at breakpoint.
 </pre-wrap>
