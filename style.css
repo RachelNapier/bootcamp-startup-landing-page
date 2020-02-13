@@ -10,11 +10,11 @@ main {
 }
 
 body {
-  background: url(images/ff7-bg-sm.png) no-repeat center center fixed;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
+  background: url(images/ff7-bg-2.jpg) no-repeat center center fixed;
+  -webkit-background-size: 100% 650px;
+  -moz-background-size: 100% 650px;
+  -o-background-size: 100% 650px;
+  background-size: 100% 650px;
 }
 
 main {
@@ -78,15 +78,16 @@ h2 {
 
   main {
     padding: 0 100px;
+    background: none;
   }
 
   h1 {
-    font-size: 64px;
+    font-size: 56px;
     padding-bottom: 10px;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .btn {
