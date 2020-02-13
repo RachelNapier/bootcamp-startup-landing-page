@@ -10,13 +10,11 @@ main {
 }
 
 body {
-  background: url(images/ff8-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(images/ff7-bg-sm.png) no-repeat center center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   background-size: 100% 100%;
-  font-family: "Fira Sans", sans-serif;
 }
 
 main {
@@ -27,37 +25,35 @@ main {
           CONTENT STYLES
    =================================== */
 
-main {
-  padding: 0 100px;
+main,
+#register {
+  padding: 0 20px;
 }
 
 h1 {
-  font-size: 64px;
-  padding-bottom: 10px;
-}
-
-h1,
-h2,
-hr {
-  font-weight: 700;
-}
-
-h1 {
+  font-size: 24px;
+  padding-bottom: 5px;
   text-shadow: 00px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
-.buffer {
-  height: 100px;
+h1,
+h2 {
+  font-weight: 700;
 }
 
 hr {
-  max-width: 400px;
   border-top: 1px solid #111010;
+  max-width: 200px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 16px;
 }
 
 .btn {
-  font-weight: 700;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -70,43 +66,35 @@ hr {
           RESPONSIVE STYLES
    =================================== */
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 767px) {
   body {
-    background: url(images/ff7-bg-sm.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(images/ff-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
     background-size: 100% 100%;
+    font-family: "Fira Sans", sans-serif;
   }
 
   main {
-    background: rgba(255, 255, 255, 0.5);
-  }
-
-  main,
-  footer {
-    padding: 0 20px;
-  }
-
-  .buffer {
-    height: 50px;
-  }
-
-  hr {
-    max-width: 200px;
+    padding: 0 100px;
   }
 
   h1 {
-    font-size: 24px;
-    padding-bottom: 5px;
+    font-size: 64px;
+    padding-bottom: 10px;
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 32px;
   }
 
   .btn {
-    font-size: 12px;
+    font-size: 20px;
+  }
+
+  hr {
+    max-width: 400px;
+    margin-top: 100px;
   }
 }
