@@ -11,10 +11,10 @@ main {
 
 body {
   background: url(images/ff7-bg-2.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100% 650px;
-  -moz-background-size: 100% 650px;
-  -o-background-size: 100% 650px;
-  background-size: 100% 650px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 main {
@@ -69,10 +69,11 @@ h2 {
 @media (min-width: 767px) {
   body {
     background: url(images/ff-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-color: #D8D8D8;
     font-family: "Fira Sans", sans-serif;
   }
 
