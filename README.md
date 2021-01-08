@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://rachelnapier.github.io/bootcamp-startup-landing-page/">
-    <img src="images/bootstrap-icon.jpg" alt="Logo" width="80" height="80">
+    <img src="images/bootstrap-icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center"><strong>Final Fantasy Landing Page</strong></h3>
